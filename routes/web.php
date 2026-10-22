@@ -1,3 +1,5 @@
+<?php
+use Iluminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
