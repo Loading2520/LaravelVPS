@@ -23,3 +23,4 @@ jobs:
             set -eu
             cd /var/www/html/LaravelVPS
             git pull --ff-only origin main
+            sudo /usr/sbin/service php8.5-fpm reload
